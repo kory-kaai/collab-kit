@@ -4,7 +4,7 @@
   "description": "Bootstrap GitHub team workflows — PR templates, CI, git hooks, and docs in one command",
   "type": "module",
   "bin": {
-    "collab-kit": "./bin/collab-kit.mjs"
+    "collab-kit": "bin/collab-kit.mjs"
   },
   "files": [
     "bin",
@@ -43,7 +43,7 @@
   "author": "Kory Kaai",
   "repository": {
     "type": "git",
-    "url": "https://github.com/kory-kaai/collab-kit.git"
+    "url": "git+https://github.com/kory-kaai/collab-kit.git"
   },
   "homepage": "https://github.com/kory-kaai/collab-kit#readme",
   "bugs": {
