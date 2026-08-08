@@ -6,8 +6,26 @@
   "bin": {
     "collab-kit": "./bin/collab-kit.mjs"
   },
+  "files": [
+    "bin",
+    "tools/init.mjs",
+    "tools/validate-commit.mjs",
+    "tools/branch-name.mjs",
+    "tools/README.md",
+    "docs",
+    "examples",
+    ".github",
+    ".githooks",
+    ".editorconfig",
+    "CONTRIBUTING.md",
+    "CODE_OF_CONDUCT.md",
+    "SECURITY.md",
+    "LICENSE",
+    "README.md"
+  ],
   "scripts": {
-    "test": "node --test tools/*.test.mjs"
+    "test": "node --test tools/*.test.mjs",
+    "prepublishOnly": "npm test"
   },
   "keywords": [
     "github",
@@ -22,6 +40,7 @@
     "open-source"
   ],
   "license": "MIT",
+  "author": "Kory Kaai",
   "repository": {
     "type": "git",
     "url": "https://github.com/kory-kaai/collab-kit.git"
