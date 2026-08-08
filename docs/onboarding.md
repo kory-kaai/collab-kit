@@ -3,7 +3,7 @@
 Run `collab-kit init` first, then complete these steps in your repo.
 
 ```bash
-npx github:kory-kaai/collab-kit init .
+npx collab-kit init .
 git config core.hooksPath .githooks
 ```
 

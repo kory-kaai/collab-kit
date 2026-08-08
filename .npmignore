@@ -1,0 +1,4 @@
+scripts/
+.git/
+*.test.mjs
+collab-kit-*.tgz
