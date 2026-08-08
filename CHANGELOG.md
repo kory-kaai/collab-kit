@@ -4,12 +4,15 @@ All notable changes to this project are documented here.
 
 ## [Unreleased]
 
+## [0.3.0] - 2026-08-08
+
 ### Added
 
-- Troubleshooting, onboarding, release process, and glossary docs
-- Code of conduct and feature request issue template
+- `collab-kit init` CLI — scaffold PR templates, CI, hooks, tools, and docs into any repo
+- `bin/collab-kit.mjs` with `init`, `validate-commit`, and `branch-name` commands
+- Star-friendly README with badges and quick-start via `npx github:kory-kaai/collab-kit`
 
-## [0.1.0] - 2026-08-08
+## [0.2.0] - 2026-08-08
 
 ### Added
 

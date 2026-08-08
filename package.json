@@ -1,8 +1,11 @@
 {
   "name": "collab-kit",
-  "version": "0.2.0",
-  "description": "Reference patterns and tooling for GitHub-based team collaboration",
+  "version": "0.3.0",
+  "description": "Bootstrap GitHub team workflows — PR templates, CI, git hooks, and docs in one command",
   "type": "module",
+  "bin": {
+    "collab-kit": "./bin/collab-kit.mjs"
+  },
   "scripts": {
     "test": "node --test tools/*.test.mjs"
   },
@@ -10,9 +13,23 @@
     "github",
     "workflow",
     "collaboration",
-    "pull-requests"
+    "pull-requests",
+    "conventional-commits",
+    "git-hooks",
+    "scaffold",
+    "developer-tools",
+    "team",
+    "open-source"
   ],
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kory-kaai/collab-kit.git"
+  },
+  "homepage": "https://github.com/kory-kaai/collab-kit#readme",
+  "bugs": {
+    "url": "https://github.com/kory-kaai/collab-kit/issues"
+  },
   "engines": {
     "node": ">=20"
   }

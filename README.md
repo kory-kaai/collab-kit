@@ -1,42 +1,75 @@
 # Collab Kit
 
-Reference patterns and lightweight tooling for small teams working on GitHub. Covers pull request workflows, issue triage, pair programming conventions, and CI setup — the kind of scaffolding you copy into a new repo instead of reinventing each time.
+**Bootstrap GitHub team workflows in one command.** PR templates, issue templates, CI, git hooks, commit validators, and maintainer docs — copied into your repo so you stop reinventing the same scaffolding.
 
-## What's inside
+[![CI](https://github.com/kory-kaai/collab-kit/actions/workflows/ci.yml/badge.svg)](https://github.com/kory-kaai/collab-kit/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Node](https://img.shields.io/badge/node-%3E%3D20-brightgreen)](package.json)
 
-| Area | Description |
-|------|-------------|
-| [`docs/`](docs/) | Guides for PR workflow, issue triage, and pair programming |
-| [`tools/`](tools/) | Small utilities for commit message validation and branch naming |
-| [`.github/`](.github/) | Issue/PR templates and a basic CI workflow |
+## Why star this?
+
+Every new GitHub repo needs the same boring setup: PR templates, labels, CI, commit conventions, a code of conduct. **Collab Kit gives you all of that in 30 seconds** — then gets out of your way.
+
+No framework lock-in. No account required. Plain files you own and customize.
 
 ## Quick start
 
-```bash
-# Validate a commit message (checks Conventional Commits + co-author trailers)
-node tools/validate-commit.mjs "feat: add branch naming helper"
+Scaffold into your current repo:
 
-# Run the test suite
+```bash
+npx github:kory-kaai/collab-kit init .
+git config core.hooksPath .githooks
+```
+
+Or into a new directory:
+
+```bash
+npx github:kory-kaai/collab-kit init my-project
+cd my-project
+git init
+git config core.hooksPath .githooks
+```
+
+Use `--force` to overwrite files that already exist.
+
+## What you get
+
+| Category | Included |
+|----------|----------|
+| **GitHub** | PR template, bug/feature issue templates, Dependabot, CI workflow |
+| **Git hooks** | `prepare-commit-msg` to enforce clean commit messages |
+| **Tooling** | Conventional Commits validator, branch name checker |
+| **Docs** | PR workflow, issue triage, pair programming, onboarding, FAQ |
+| **Community** | Code of conduct, contributing guide, security policy |
+
+## CLI commands
+
+```bash
+collab-kit init [dir] [--force]     # copy workflow scaffold
+collab-kit validate-commit "feat: add login"   # check commit message
+collab-kit branch-name feat/add-login          # check branch name
+```
+
+## Development
+
+```bash
+git clone https://github.com/kory-kaai/collab-kit.git
+cd collab-kit
 npm test
 ```
 
-## Docs
+## Documentation
 
-- [Pull request workflow](docs/pr-workflow.md) — branch naming, review expectations, merge strategies
-- [Issue triage](docs/issue-triage.md) — labels, response SLAs, closing duplicates quickly
-- [Pair programming on GitHub](docs/pair-programming.md) — `Co-authored-by` trailers and shared ownership
-- [FAQ](docs/faq.md) — common questions about this toolkit
-- [Git hooks](docs/git-hooks.md) — optional client-side validation
-- [Onboarding checklist](docs/onboarding.md) — adopting these patterns in a new repo
-- [Troubleshooting](docs/troubleshooting.md) — common setup issues
+- [Onboarding checklist](docs/onboarding.md) — first steps after `init`
+- [Pull request workflow](docs/pr-workflow.md)
+- [Issue triage](docs/issue-triage.md)
+- [Pair programming](docs/pair-programming.md)
+- [Git attribution hook](docs/git-attribution.md)
+- [Troubleshooting](docs/troubleshooting.md)
 
 ## Contributing
 
-See [CONTRIBUTING.md](CONTRIBUTING.md). Bug reports and doc improvements are welcome.
-
-## Changelog
-
-See [CHANGELOG.md](CHANGELOG.md) for release history.
+PRs welcome! See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
 
