@@ -38,7 +38,7 @@ describe("validateBranchName", () => {
     assert.match(result.suggestion ?? "", /^feat\//);
   });
 
-  it("accepts ci/ prefix", () => {
-    assert.equal(validateBranchName("ci/update-workflow").valid, true);
+  it("accepts fix/ prefix", () => {
+    assert.equal(validateBranchName("fix/login-bug").valid, true);
   });
 });
