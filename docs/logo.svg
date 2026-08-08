@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Collab Kit">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0969da"/>
+      <stop offset="100%" stop-color="#0550ae"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="24" fill="url(#bg)"/>
+  <g fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M36 52c0-8.837 7.163-16 16-16h24c8.837 0 16 7.163 16 16v8H36v-8z"/>
+    <path d="M32 60h64v28c0 8.837-7.163 16-16 16H48c-8.837 0-16-7.163-16-16V60z"/>
+    <path d="M52 78h24"/>
+    <path d="M64 70v16"/>
+  </g>
+</svg>

@@ -48,7 +48,7 @@
     "type": "git",
     "url": "git+https://github.com/kory-kaai/collab-kit.git"
   },
-  "homepage": "https://github.com/kory-kaai/collab-kit#readme",
+  "homepage": "https://www.npmjs.com/package/@korykaai/collab-kit",
   "bugs": {
     "url": "https://github.com/kory-kaai/collab-kit/issues"
   },

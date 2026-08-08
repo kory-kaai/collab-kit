@@ -4,6 +4,12 @@ All notable changes to this project are documented here.
 
 ## [Unreleased]
 
+### Added
+
+- Logo, demo screenshot, and social preview image for README
+- "Why collab-kit?" comparison table and before/after file tree
+- Promotion playbook with HN/Reddit drafts and awesome-list submission templates
+
 ## [0.3.1] - 2026-08-09
 
 ### Added
