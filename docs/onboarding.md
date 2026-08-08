@@ -1,8 +1,13 @@
 # Onboarding checklist
 
-Use this when copying collab-kit patterns into a new repository.
+Run `collab-kit init` first, then complete these steps in your repo.
 
-- [ ] Copy `.github/PULL_REQUEST_TEMPLATE.md` and issue templates
+```bash
+npx github:kory-kaai/collab-kit init .
+git config core.hooksPath .githooks
+```
+
+- [ ] Copy `.github/PULL_REQUEST_TEMPLATE.md` and issue templates (done by `init`)
 - [ ] Add `.editorconfig` for consistent formatting
 - [ ] Enable branch protection on `main` (optional for solo projects)
 - [ ] Run `git config core.hooksPath .githooks` if using the commit hook
