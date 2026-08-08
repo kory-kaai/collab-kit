@@ -1,8 +1,11 @@
 {
-  "name": "collab-kit",
+  "name": "@korykaai/collab-kit",
   "version": "0.3.0",
   "description": "Bootstrap GitHub team workflows — PR templates, CI, git hooks, and docs in one command",
   "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
   "bin": {
     "collab-kit": "bin/collab-kit.mjs"
   },

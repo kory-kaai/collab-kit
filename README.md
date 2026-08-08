@@ -17,14 +17,14 @@ No framework lock-in. No account required. Plain files you own and customize.
 Scaffold into your current repo:
 
 ```bash
-npx collab-kit init .
+npx @korykaai/collab-kit init .
 git config core.hooksPath .githooks
 ```
 
 Or into a new directory:
 
 ```bash
-npx collab-kit init my-project
+npx @korykaai/collab-kit init my-project
 cd my-project
 git init
 git config core.hooksPath .githooks

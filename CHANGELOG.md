@@ -4,6 +4,10 @@ All notable changes to this project are documented here.
 
 ## [Unreleased]
 
+### Fixed
+
+- Renamed npm package to `@korykaai/collab-kit` (unscoped `collab-kit` conflicts with existing `collabkit` package)
+
 ## [0.3.0] - 2026-08-08
 
 ### Added

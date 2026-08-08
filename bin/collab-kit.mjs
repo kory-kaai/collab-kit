@@ -15,7 +15,7 @@ Usage:
   collab-kit branch-name <name>    Check branch naming conventions
 
 Examples:
-  npx collab-kit init .
+  npx @korykaai/collab-kit init .
   collab-kit init my-new-repo --force
 `;
 
