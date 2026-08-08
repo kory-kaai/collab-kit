@@ -81,9 +81,13 @@ Fork https://github.com/agarrharr/awesome-cli-apps and add under **Version Contr
 
 PR title: `Add collab-kit to Git tools`
 
+**Status:** PR opened → https://github.com/agarrharr/awesome-cli-apps/pull/1285
+
 ### 2. hidden-salmon/awesome-cli (issue submission)
 
 Open: https://github.com/hidden-salmon/awesome-cli/issues/new?template=submit-tool.yml
+
+**Status:** Issue opened → https://github.com/hidden-salmon/awesome-cli/issues/4
 
 - **Name:** collab-kit
 - **URL:** https://github.com/kory-kaai/collab-kit
