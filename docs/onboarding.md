@@ -1,0 +1,11 @@
+# Onboarding checklist
+
+Use this when copying collab-kit patterns into a new repository.
+
+- [ ] Copy `.github/PULL_REQUEST_TEMPLATE.md` and issue templates
+- [ ] Add `.editorconfig` for consistent formatting
+- [ ] Enable branch protection on `main` (optional for solo projects)
+- [ ] Run `git config core.hooksPath .githooks` if using the commit hook
+- [ ] Add `npm test` to your CI workflow
+- [ ] Create standard labels (`bug`, `enhancement`, `docs`, `duplicate`)
+- [ ] Share [pr-workflow.md](pr-workflow.md) with your team
