@@ -27,6 +27,8 @@ npm test
 - [Pair programming on GitHub](docs/pair-programming.md) — `Co-authored-by` trailers and shared ownership
 - [FAQ](docs/faq.md) — common questions about this toolkit
 - [Git hooks](docs/git-hooks.md) — optional client-side validation
+- [Onboarding checklist](docs/onboarding.md) — adopting these patterns in a new repo
+- [Troubleshooting](docs/troubleshooting.md) — common setup issues
 
 ## Contributing
 
