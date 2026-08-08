@@ -2,6 +2,13 @@
 
 All notable changes to this project are documented here.
 
+## [Unreleased]
+
+### Added
+
+- Troubleshooting, onboarding, release process, and glossary docs
+- Code of conduct and feature request issue template
+
 ## [0.1.0] - 2026-08-08
 
 ### Added
