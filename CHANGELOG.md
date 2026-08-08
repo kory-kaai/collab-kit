@@ -4,6 +4,13 @@ All notable changes to this project are documented here.
 
 ## [Unreleased]
 
+## [0.3.1] - 2026-08-09
+
+### Added
+
+- npm trusted publishing via GitHub Actions OIDC
+- npm version badge in README
+
 ### Fixed
 
 - Renamed npm package to `@korykaai/collab-kit` (unscoped `collab-kit` conflicts with existing `collabkit` package)
