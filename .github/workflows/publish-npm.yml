@@ -23,7 +23,17 @@ jobs:
       - name: Install dependencies
         run: npm test
 
+      - name: Check if version is already published
+        id: check
+        run: |
+          VERSION=$(node -p "require('./package.json').version")
+          if npm view "@korykaai/collab-kit@${VERSION}" version >/dev/null 2>&1; then
+            echo "Version ${VERSION} is already on npm — skipping publish."
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Publish to npm
+        if: steps.check.outputs.skip != 'true'
         run: npm publish --provenance --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}

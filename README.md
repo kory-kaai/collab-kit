@@ -3,6 +3,7 @@
 **Bootstrap GitHub team workflows in one command.** PR templates, issue templates, CI, git hooks, commit validators, and maintainer docs — copied into your repo so you stop reinventing the same scaffolding.
 
 [![CI](https://github.com/kory-kaai/collab-kit/actions/workflows/ci.yml/badge.svg)](https://github.com/kory-kaai/collab-kit/actions/workflows/ci.yml)
+[![npm version](https://img.shields.io/npm/v/@korykaai/collab-kit.svg)](https://www.npmjs.com/package/@korykaai/collab-kit)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Node](https://img.shields.io/badge/node-%3E%3D20-brightgreen)](package.json)
 
