@@ -1,0 +1,19 @@
+{
+  "name": "collab-kit",
+  "version": "0.1.0",
+  "description": "Reference patterns and tooling for GitHub-based team collaboration",
+  "type": "module",
+  "scripts": {
+    "test": "node --test tools/*.test.mjs"
+  },
+  "keywords": [
+    "github",
+    "workflow",
+    "collaboration",
+    "pull-requests"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  }
+}
