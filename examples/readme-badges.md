@@ -2,6 +2,8 @@
 
 Copy these into your project `README.md` after `collab-kit init`. Replace placeholders with your repo details.
 
+For co-authored commits and pair programming conventions, see [pair-programming.md](../docs/pair-programming.md).
+
 ## CI (GitHub Actions)
 
 Shows the latest workflow run on your default branch.
