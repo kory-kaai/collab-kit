@@ -26,3 +26,33 @@ GitHub Desktop has a built-in "Co-Authors" field when committing — it adds the
 ## Pull requests
 
 Open a PR with the co-authored commit and merge it. GitHub attributes the contribution to both authors on the commit and in the PR.
+
+## GitHub Pair Extraordinaire achievement
+
+GitHub awards **Pair Extraordinaire** when a **merged public PR** contains at least one commit with a valid `Co-authored-by:` trailer.
+
+### Requirements
+
+- Repository must be **public**
+- PR must be **merged** (not just closed)
+- Co-author email must be **linked to a real GitHub account**
+- Bot accounts (Dependabot, Cursor agent, etc.) do **not** count
+
+### Example commit message
+
+```
+docs: add troubleshooting FAQ entry
+
+Co-authored-by: Alex Kim <12345678+alexkim@users.noreply.github.com>
+```
+
+Find a collaborator's noreply email at **GitHub → Settings → Emails** (or use their public `users.noreply.github.com` address).
+
+### Verify before merging
+
+```bash
+git log -1 --format=%B
+gh pr view --json commits
+```
+
+After merge, both authors should see progress toward Pair Extraordinaire on their profiles within ~24 hours.
