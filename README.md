@@ -11,6 +11,7 @@
 
 <p align="center">
   <a href="https://github.com/kory-kaai/collab-kit/actions/workflows/ci.yml"><img src="https://github.com/kory-kaai/collab-kit/actions/workflows/ci.yml/badge.svg" alt="CI"></a>
+  <a href="https://github.com/kory-kaai/collab-kit/releases"><img src="https://img.shields.io/github/v/release/kory-kaai/collab-kit" alt="GitHub release"></a>
   <a href="https://www.npmjs.com/package/@korykaai/collab-kit"><img src="https://img.shields.io/npm/v/@korykaai/collab-kit.svg" alt="npm version"></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License: MIT"></a>
   <a href="package.json"><img src="https://img.shields.io/badge/node-%3E%3D20-brightgreen" alt="Node"></a>
@@ -128,6 +129,12 @@ npm test
 If collab-kit saved you time setting up a repo, a star helps others find it.
 
 [![Star on GitHub](https://img.shields.io/github/stars/kory-kaai/collab-kit?style=social)](https://github.com/kory-kaai/collab-kit)
+
+<p align="center">
+  <a href="https://star-history.com/#kory-kaai/collab-kit&Date">
+    <img src="https://api.star-history.com/svg?repos=kory-kaai/collab-kit&type=Date" alt="Star history chart" width="600">
+  </a>
+</p>
 
 ## Contributing
 

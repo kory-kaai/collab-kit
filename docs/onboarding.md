@@ -12,5 +12,6 @@ git config core.hooksPath .githooks
 - [ ] Enable branch protection on `main` (optional for solo projects)
 - [ ] Run `git config core.hooksPath .githooks` if using the commit hook
 - [ ] Add `npm test` to your CI workflow
+- [ ] Add a CI badge to your README — see [examples/readme-badges.md](../examples/readme-badges.md)
 - [ ] Create standard labels (`bug`, `enhancement`, `docs`, `duplicate`)
 - [ ] Share [pr-workflow.md](pr-workflow.md) with your team
