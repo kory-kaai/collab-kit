@@ -64,7 +64,7 @@ Open source (MIT). Happy to hear what you'd want in the default scaffold.
 ## GitHub repo settings checklist
 
 - [x] Description set
-- [ ] **Social preview:** upload `docs/images/social-preview.png` at  
+- [x] **Social preview:** upload `docs/images/social-preview.png` at  
       **Settings → General → Social preview**
 - [x] Homepage: https://www.npmjs.com/package/@korykaai/collab-kit
 - [x] Topics: cli, github, workflow, scaffold, developer-tools

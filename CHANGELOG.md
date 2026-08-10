@@ -9,6 +9,8 @@ All notable changes to this project are documented here.
 - Logo, demo screenshot, and social preview image for README
 - "Why collab-kit?" comparison table and before/after file tree
 - Promotion playbook with HN/Reddit drafts and awesome-list submission templates
+- GitHub release badge and star history chart in README
+- README badge snippets in `examples/readme-badges.md` for projects after `init`
 
 ## [0.3.1] - 2026-08-09
 
