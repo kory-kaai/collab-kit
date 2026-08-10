@@ -72,6 +72,18 @@ git config core.hooksPath .githooks
 
 Use `--force` to overwrite files that already exist.
 
+## Ship your release
+
+Once your project is ready, pair collab-kit with **[shipkit](https://github.com/kory-kaai/shipkit)** to handle versioning, changelog, GitHub releases, and npm publish:
+
+```bash
+npx @korykaai/shipkit preflight
+npx @korykaai/shipkit release --minor --dry-run
+npx @korykaai/shipkit ship --patch --yes
+```
+
+See the [shipkit repo](https://github.com/kory-kaai/shipkit) for full command reference.
+
 ## Why collab-kit?
 
 | Approach | Setup time | You own the files | Includes docs + validators | Works offline |
@@ -122,6 +134,7 @@ npm test
 - [Pair programming](docs/pair-programming.md)
 - [Git attribution hook](docs/git-attribution.md)
 - [npm CI setup](docs/npm-ci-setup.md)
+- [Ship releases with shipkit](https://github.com/kory-kaai/shipkit)
 - [Troubleshooting](docs/troubleshooting.md)
 
 ## Star history
