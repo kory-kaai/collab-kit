@@ -82,7 +82,7 @@ npx @korykaai/shipkit release --minor --dry-run
 npx @korykaai/shipkit ship --patch --yes
 ```
 
-See the [shipkit repo](https://github.com/kory-kaai/shipkit) for full command reference.
+See the [shipkit repo](https://github.com/kory-kaai/shipkit) and [npm package](https://www.npmjs.com/package/@korykaai/shipkit) for full command reference.
 
 ## Why collab-kit?
 
