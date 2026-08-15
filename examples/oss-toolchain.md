@@ -33,6 +33,8 @@ npx @topdaily-dev/shipkit preflight
 npx @topdaily-dev/shipkit ship --patch --yes
 ```
 
+First-time npm setup: [topdaily-dev/shipkit → docs/npm-publish.md](https://github.com/topdaily-dev/shipkit/blob/main/docs/npm-publish.md)
+
 ## Pair with collab-kit
 
 ```bash
