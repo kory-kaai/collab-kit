@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 
+import { findForbiddenAttribution } from "./strip-cursor-trailers.mjs";
+
 const CONVENTIONAL_PREFIX =
   /^(feat|fix|docs|style|refactor|perf|test|chore|ci|build|revert)(\(.+\))?!?: .+/;
 
@@ -32,6 +34,10 @@ export function validateCommitMessage(message) {
   const trailers = trimmed
     .split("\n")
     .filter((line) => line.startsWith("Co-authored-by:"));
+
+  for (const line of findForbiddenAttribution(trimmed)) {
+    errors.push(`Forbidden attribution trailer: ${line.trim()}`);
+  }
 
   for (const trailer of trailers) {
     if (!CO_AUTHOR.test(trailer)) {

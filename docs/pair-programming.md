@@ -35,8 +35,17 @@ GitHub awards **Pair Extraordinaire** when a **merged public PR** contains at le
 
 - Repository must be **public**
 - PR must be **merged** (not just closed)
-- Co-author email must be **linked to a real GitHub account**
-- Bot accounts (Dependabot, Cursor agent, etc.) do **not** count
+- Co-author email must be **linked to a real GitHub account** you control
+- Use only human collaborators — **never** `Cursor`, `@cursoragent`, or `@cursor.com`
+
+### Approved co-authors (this org)
+
+```
+Co-authored-by: Kory Kaai <69431357+kory-kaai@users.noreply.github.com>
+Co-authored-by: TopDaily Dev <315340167+topdaily-dev@users.noreply.github.com>
+```
+
+See [git-attribution.md](git-attribution.md) for hooks that block agent trailers.
 
 ### Example commit message
 

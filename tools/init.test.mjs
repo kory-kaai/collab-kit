@@ -57,6 +57,6 @@ describe("SCAFFOLD_PATHS", () => {
 
 describe("buildNextSteps", () => {
   it("mentions git hooks setup", () => {
-    assert.match(buildNextSteps("."), /core\.hooksPath/);
+    assert.match(buildNextSteps("."), /enable-hooks/);
   });
 });

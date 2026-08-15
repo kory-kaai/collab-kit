@@ -21,6 +21,14 @@ describe("validateCommitMessage", () => {
     assert.equal(result.valid, true);
   });
 
+  it("rejects Cursor co-author trailers", () => {
+    const result = validateCommitMessage(
+      "feat: fix\n\nCo-authored-by: Cursor <cursoragent@cursor.com>",
+    );
+    assert.equal(result.valid, false);
+    assert.match(result.errors.join(" "), /Forbidden attribution/);
+  });
+
   it("accepts breaking change indicator", () => {
     const result = validateCommitMessage("feat!: remove legacy API");
     assert.equal(result.valid, true);

@@ -12,6 +12,8 @@
   "files": [
     "bin",
     "tools/init.mjs",
+    "tools/enable-hooks.mjs",
+    "tools/strip-cursor-trailers.mjs",
     "tools/validate-commit.mjs",
     "tools/branch-name.mjs",
     "tools/README.md",
