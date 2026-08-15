@@ -26,6 +26,11 @@ describe("parseInitArgs", () => {
     assert.equal(result.target, resolve("my-app"));
     assert.equal(result.force, true);
   });
+
+  it("parses --oss-toolchain", () => {
+    const result = parseInitArgs(["my-app", "--oss-toolchain"]);
+    assert.equal(result.ossToolchain, true);
+  });
 });
 
 describe("scaffoldProject", () => {
@@ -58,5 +63,9 @@ describe("SCAFFOLD_PATHS", () => {
 describe("buildNextSteps", () => {
   it("mentions git hooks setup", () => {
     assert.match(buildNextSteps("."), /enable-hooks/);
+  });
+
+  it("mentions oss toolchain steps when enabled", () => {
+    assert.match(buildNextSteps(".", { ossToolchain: true }), /repomark/);
   });
 });

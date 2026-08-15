@@ -20,14 +20,17 @@ export const SCAFFOLD_PATHS = [
   "SECURITY.md",
 ];
 
+/** @type {readonly string[]} */
+export const OSS_TOOLCHAIN_PATHS = ["examples/oss-toolchain.md"];
+
 /**
  * @param {string} source
  * @param {string} destination
- * @param {{ force?: boolean }} options
+ * @param {{ force?: boolean; ossToolchain?: boolean }} options
  * @returns {{ copied: string[]; skipped: string[] }}
  */
 export function scaffoldProject(source, destination, options = {}) {
-  const { force = false } = options;
+  const { force = false, ossToolchain = false } = options;
   const copied = [];
   const skipped = [];
 
@@ -35,7 +38,11 @@ export function scaffoldProject(source, destination, options = {}) {
     mkdirSync(destination, { recursive: true });
   }
 
-  for (const relativePath of SCAFFOLD_PATHS) {
+  const paths = ossToolchain
+    ? [...SCAFFOLD_PATHS, ...OSS_TOOLCHAIN_PATHS]
+    : [...SCAFFOLD_PATHS];
+
+  for (const relativePath of paths) {
     const from = join(source, relativePath);
     const to = join(destination, relativePath);
 
@@ -57,31 +64,43 @@ export function scaffoldProject(source, destination, options = {}) {
 
 /**
  * @param {string} targetDir
+ * @param {{ ossToolchain?: boolean }} options
  * @returns {string}
  */
-export function buildNextSteps(targetDir) {
+export function buildNextSteps(targetDir, options = {}) {
   const relative = targetDir === process.cwd() ? "." : targetDir;
-  return [
+  const lines = [
     "Next steps:",
     `  cd ${relative === "." ? "" : relative}`.trimEnd(),
     "  collab-kit enable-hooks .",
     "  npm test   # if you add a package.json with the test script",
     "",
     "Docs: docs/onboarding.md",
-  ]
-    .filter(Boolean)
-    .join("\n");
+  ];
+
+  if (options.ossToolchain) {
+    lines.splice(
+      lines.length - 2,
+      0,
+      "  npx @topdaily-dev/repomark check .",
+      "  npx @topdaily-dev/badgekit validate .",
+      "  See examples/oss-toolchain.md",
+    );
+  }
+
+  return lines.filter(Boolean).join("\n");
 }
 
 /**
  * @param {string[]} argv
- * @returns {{ target: string; force: boolean }}
+ * @returns {{ target: string; force: boolean; ossToolchain: boolean }}
  */
 export function parseInitArgs(argv) {
   const force = argv.includes("--force");
+  const ossToolchain = argv.includes("--oss-toolchain");
   const positional = argv.filter((arg) => !arg.startsWith("-"));
   const target = positional[0] ?? ".";
-  return { target: resolve(target), force };
+  return { target: resolve(target), force, ossToolchain };
 }
 
 function isMainModule() {
@@ -93,8 +112,8 @@ function isMainModule() {
 }
 
 if (isMainModule()) {
-  const { target, force } = parseInitArgs(process.argv.slice(2));
-  const result = scaffoldProject(PACKAGE_ROOT, target, { force });
+  const { target, force, ossToolchain } = parseInitArgs(process.argv.slice(2));
+  const result = scaffoldProject(PACKAGE_ROOT, target, { force, ossToolchain });
 
   if (result.copied.length === 0 && result.skipped.length > 0) {
     console.error("Nothing copied — files already exist. Use --force to overwrite.");
@@ -114,5 +133,5 @@ if (isMainModule()) {
     }
   }
 
-  console.log(`\n${buildNextSteps(target)}`);
+  console.log(`\n${buildNextSteps(target, { ossToolchain })}`);
 }

@@ -1,0 +1,15 @@
+name: Repo health
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  repomark:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: topdaily-dev/repomark-action@v1
+        with:
+          min: "70"

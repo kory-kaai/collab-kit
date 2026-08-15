@@ -10,7 +10,7 @@ const ROOT = resolve(__dirname, "..");
 const HELP = `collab-kit — GitHub team workflow toolkit
 
 Usage:
-  collab-kit init [dir] [--force]   Scaffold PR templates, CI, hooks, and docs
+  collab-kit init [dir] [--force] [--oss-toolchain]   Scaffold PR templates, CI, hooks, and docs
   collab-kit enable-hooks [dirs...] Enable attribution-safe git hooks in repo(s)
   collab-kit validate-commit <msg>  Check Conventional Commits format
   collab-kit branch-name <name>    Check branch naming conventions

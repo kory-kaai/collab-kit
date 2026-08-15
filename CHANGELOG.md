@@ -4,9 +4,15 @@ All notable changes to this project are documented here.
 
 ## [Unreleased]
 
+## [0.4.0] - 2026-08-15
+
 ### Added
 
-- Logo, demo screenshot, and social preview image for README
+- `collab-kit init --oss-toolchain` copies `examples/oss-toolchain.md` with badgekit/repomark/shipkit workflow
+- Repo health CI workflow template (`.github/workflows/repomark.yml`) using `topdaily-dev/repomark-action`
+
+### Previously unreleased
+
 - "Why collab-kit?" comparison table and before/after file tree
 - Promotion playbook with HN/Reddit drafts and awesome-list submission templates
 - GitHub release badge and star history chart in README
