@@ -11,6 +11,7 @@ const HELP = `collab-kit — GitHub team workflow toolkit
 
 Usage:
   collab-kit init [dir] [--force]   Scaffold PR templates, CI, hooks, and docs
+  collab-kit enable-hooks [dirs...] Enable attribution-safe git hooks in repo(s)
   collab-kit validate-commit <msg>  Check Conventional Commits format
   collab-kit branch-name <name>    Check branch naming conventions
 
@@ -22,6 +23,7 @@ Examples:
 /** @type {Record<string, string>} */
 const COMMANDS = {
   init: "tools/init.mjs",
+  "enable-hooks": "tools/enable-hooks.mjs",
   "validate-commit": "tools/validate-commit.mjs",
   "branch-name": "tools/branch-name.mjs",
 };

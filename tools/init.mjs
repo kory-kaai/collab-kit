@@ -64,7 +64,7 @@ export function buildNextSteps(targetDir) {
   return [
     "Next steps:",
     `  cd ${relative === "." ? "" : relative}`.trimEnd(),
-    "  git config core.hooksPath .githooks",
+    "  collab-kit enable-hooks .",
     "  npm test   # if you add a package.json with the test script",
     "",
     "Docs: docs/onboarding.md",
