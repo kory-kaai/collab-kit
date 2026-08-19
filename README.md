@@ -74,15 +74,21 @@ Use `--force` to overwrite files that already exist.
 
 ## Ship your release
 
-Once your project is ready, pair collab-kit with **[shipkit](https://github.com/kory-kaai/shipkit)** to handle versioning, changelog, GitHub releases, and npm publish:
+Once your project is ready, pair collab-kit with the **[@topdaily-dev](https://github.com/topdaily-dev) toolchain** — repomark for repo health, badgekit for README badges, shipkit for releases:
 
 ```bash
-npx @korykaai/shipkit preflight
-npx @korykaai/shipkit release --minor --dry-run
-npx @korykaai/shipkit ship --patch --yes
+npx @topdaily-dev/repomark check .
+npx @topdaily-dev/shipkit preflight
+npx @topdaily-dev/shipkit ship --patch --yes
 ```
 
-See the [shipkit repo](https://github.com/kory-kaai/shipkit) and [npm package](https://www.npmjs.com/package/@korykaai/shipkit) for full command reference.
+Or bootstrap everything on day one:
+
+```bash
+npx @korykaai/collab-kit init . --oss-toolchain
+```
+
+See [examples/oss-toolchain.md](examples/oss-toolchain.md) and [topdaily-dev/shipkit](https://github.com/topdaily-dev/shipkit).
 
 ## Why collab-kit?
 
@@ -113,7 +119,7 @@ See the [shipkit repo](https://github.com/kory-kaai/shipkit) and [npm package](h
 ## CLI commands
 
 ```bash
-collab-kit init [dir] [--force]              # copy workflow scaffold
+collab-kit init [dir] [--force] [--oss-toolchain]   # copy workflow scaffold
 collab-kit validate-commit "feat: add login" # check commit message
 collab-kit branch-name feat/add-login        # check branch name
 ```
@@ -134,7 +140,8 @@ npm test
 - [Pair programming](docs/pair-programming.md)
 - [Git attribution hook](docs/git-attribution.md)
 - [npm CI setup](docs/npm-ci-setup.md)
-- [Ship releases with shipkit](https://github.com/kory-kaai/shipkit)
+- [Ship releases with shipkit](https://github.com/topdaily-dev/shipkit)
+- [OSS toolchain example](examples/oss-toolchain.md)
 - [Troubleshooting](docs/troubleshooting.md)
 
 ## Star history
