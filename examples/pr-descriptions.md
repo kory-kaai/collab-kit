@@ -22,3 +22,5 @@ Adds `fix/` prefix support to branch name validator.
 ## Checklist
 - [x] Tests pass locally
 ```
+
+Link oss-toolchain.md in PRs that touch badges or releases.
