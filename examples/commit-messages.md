@@ -24,3 +24,5 @@ Run the validator:
 ```bash
 node tools/validate-commit.mjs "feat: add changelog generator"
 ```
+
+Pair commits with collab-kit validate-commit.
