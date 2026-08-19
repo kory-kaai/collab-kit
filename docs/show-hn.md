@@ -69,3 +69,5 @@ Happy to answer questions about the defaults or how to customize validators/hook
 2. Do not ask for stars directly; let the tool speak for itself.
 3. If someone reports a bug, fix fast and reply with the commit link.
 4. Wait 24h before cross-posting to Reddit (see `docs/promotion.md`).
+
+Optional one-liner: npx @korykaai/collab-kit init . --oss-toolchain
