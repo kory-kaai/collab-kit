@@ -38,3 +38,11 @@ Paste the token when prompted.
 ## Verify
 
 After setup, bump `version` in `package.json`, merge to `main`, and create a GitHub Release. The workflow will run tests and publish to npm.
+
+## After publish
+
+Validate README badges still resolve:
+
+```bash
+npx @topdaily-dev/badgekit validate .
+```
