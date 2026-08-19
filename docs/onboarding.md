@@ -22,3 +22,5 @@ collab-kit enable-hooks .
 - [ ] Add a CI badge to your README — see [examples/readme-badges.md](../examples/readme-badges.md)
 - [ ] Create standard labels (`bug`, `enhancement`, `docs`, `duplicate`)
 - [ ] Share [pr-workflow.md](pr-workflow.md) with your team
+
+After onboarding run shipkit preflight before first release.
