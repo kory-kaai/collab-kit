@@ -50,3 +50,9 @@ collab-kit enable-hooks .
 ```
 
 Human co-authors only — see `docs/git-attribution.md`.
+
+Preview releases safely:
+
+```bash
+npx @topdaily-dev/shipkit ship --patch --dry-run
+```
