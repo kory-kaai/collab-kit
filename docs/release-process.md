@@ -9,3 +9,14 @@ Lightweight release steps for maintainers.
 5. Create a GitHub Release from the tag (optional for small projects).
 
 For solo-maintained repos, a tagged release is optional — merging to `main` is often enough.
+
+## Ship with shipkit
+
+For npm packages, automate version bumps and publish:
+
+```bash
+npx @topdaily-dev/shipkit preflight
+npx @topdaily-dev/shipkit ship --patch --yes
+```
+
+See [topdaily-dev/shipkit](https://github.com/topdaily-dev/shipkit) and [examples/oss-toolchain.md](../examples/oss-toolchain.md).
