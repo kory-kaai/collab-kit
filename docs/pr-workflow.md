@@ -28,3 +28,5 @@ Example: `feat/branch-name-validator`
 ## Solo maintainer note
 
 When you are the only contributor, merging your own PR without a formal review is normal for small projects. Use your judgment — production repos should still get review when possible.
+
+Cross-org toolchain PRs use human co-authors only.
