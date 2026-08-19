@@ -15,3 +15,5 @@ How to create the standard labels in your repository.
 | `duplicate` | `#cfd3d7` |
 
 Labels improve issue triage and make the project easier for new contributors to navigate.
+
+| toolchain | #1d76db |
