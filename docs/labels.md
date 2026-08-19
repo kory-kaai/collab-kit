@@ -12,3 +12,5 @@ Standard labels for issue and PR triage.
 | `duplicate` | Gray | Already reported |
 
 Create these under **Issues → Labels** in your repository settings.
+
+| toolchain | Teal | badgekit / repomark / shipkit |
