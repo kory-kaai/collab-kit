@@ -9,3 +9,5 @@ Lightweight release steps for maintainers.
 5. Create a GitHub Release from the tag (optional for small projects).
 
 For solo-maintained repos, a tagged release is optional — merging to `main` is often enough.
+
+Run badgekit validate after updating README badges.
