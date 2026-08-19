@@ -47,3 +47,5 @@ Add near the bottom of your README to show growth over time:
 
 [![Star History Chart](https://api.star-history.com/svg?repos=OWNER/REPO&type=Date)](https://star-history.com/#OWNER/REPO&Date)
 ```
+
+Use badgekit row ci npm license after collab-kit init.
