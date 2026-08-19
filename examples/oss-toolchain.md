@@ -43,3 +43,5 @@ collab-kit enable-hooks .
 ```
 
 Human co-authors only — see `docs/git-attribution.md`.
+
+Preview shipkit ship with --dry-run before publishing.
