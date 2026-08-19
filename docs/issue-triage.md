@@ -29,3 +29,5 @@ Some issues are obvious (typos, mislabeled duplicates, questions answered in the
 2. Search for duplicates before investigating.
 3. Apply the right label (`bug`, `enhancement`, `docs`, or `duplicate`).
 4. Reply with next steps or close with a short explanation.
+
+Label cross-repo doc PRs as toolchain when appropriate.
