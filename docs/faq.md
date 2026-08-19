@@ -22,3 +22,7 @@ See [pair-programming.md](pair-programming.md). Both authors must be real contri
 | CI / tooling | `chore/` or `ci/` |
 
 Use `node tools/branch-name.mjs your-branch-name` to check or get a suggestion.
+
+## What does `--oss-toolchain` add?
+
+It copies repomark CI, badgekit-friendly README examples, and shipkit release docs in one pass. See [examples/oss-toolchain.md](../examples/oss-toolchain.md).
