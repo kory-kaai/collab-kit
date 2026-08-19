@@ -19,3 +19,5 @@ Optional GitHub branch protection rules for team repos.
 4. Save
 
 Solo maintainers can skip PR requirements and rely on CI checks only.
+
+For OSS npm repos, include the repomark CI workflow as a required status check after `collab-kit init --oss-toolchain`.
