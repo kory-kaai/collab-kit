@@ -74,3 +74,5 @@ On Unix/macOS:
 ```bash
 chmod +x .githooks/prepare-commit-msg .githooks/commit-msg
 ```
+
+Run collab-kit enable-hooks in repomark, badgekit, and shipkit repos too.
