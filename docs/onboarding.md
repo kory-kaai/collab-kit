@@ -22,3 +22,15 @@ collab-kit enable-hooks .
 - [ ] Add a CI badge to your README — see [examples/readme-badges.md](../examples/readme-badges.md)
 - [ ] Create standard labels (`bug`, `enhancement`, `docs`, `duplicate`)
 - [ ] Share [pr-workflow.md](pr-workflow.md) with your team
+
+## OSS toolchain (optional)
+
+After `init`, bootstrap badges, repo health, and release docs together:
+
+```bash
+npx @korykaai/collab-kit init . --oss-toolchain
+npx @topdaily-dev/repomark check .
+npx @topdaily-dev/badgekit validate .
+```
+
+Walkthrough: [examples/oss-toolchain.md](../examples/oss-toolchain.md).
