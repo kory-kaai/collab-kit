@@ -19,3 +19,5 @@ Optional GitHub branch protection rules for team repos.
 4. Save
 
 Solo maintainers can skip PR requirements and rely on CI checks only.
+
+Require repomark CI after oss-toolchain bootstrap.
