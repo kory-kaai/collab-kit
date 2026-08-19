@@ -28,3 +28,7 @@ Example: `feat/branch-name-validator`
 ## Solo maintainer note
 
 When you are the only contributor, merging your own PR without a formal review is normal for small projects. Use your judgment — production repos should still get review when possible.
+
+## Cross-org contributions
+
+When contributing to a repo owned by another GitHub user or org, fork the repo and open a PR from your fork — direct pushes to repos you do not own will fail. Pair commits should still use human `Co-authored-by` trailers only.
