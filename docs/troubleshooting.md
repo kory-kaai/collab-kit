@@ -25,3 +25,5 @@ Common issues when adopting these workflow patterns.
 **Symptom:** You added a `Co-authored-by` trailer but GitHub does not credit them.
 
 **Fix:** Verify the email matches a verified address on their GitHub account. See [pair-programming.md](pair-programming.md).
+
+If badges 404 run badgekit validate and fix owner/repo flags.
