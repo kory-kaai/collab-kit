@@ -18,6 +18,8 @@ Keep commits attributed to **your GitHub accounts only** — never Cursor, `@cur
   - `Co-authored-by: Kory Kaai <69431357+kory-kaai@users.noreply.github.com>`
   - `Co-authored-by: TopDaily Dev <315340167+topdaily-dev@users.noreply.github.com>`
 
+Cross-org toolchain PRs should use the same human co-author trailers when pairing across GitHub accounts.
+
 Cloud / background agents may still inject `Co-authored-by: Cursor <cursoragent@cursor.com>`. The git hooks below strip or block that before it reaches GitHub.
 
 ## Enable hooks in a repo
