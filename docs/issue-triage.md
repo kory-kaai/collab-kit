@@ -9,6 +9,7 @@ Guidelines for keeping the issue tracker useful.
 | `bug` | Something is broken |
 | `enhancement` | New feature or improvement |
 | `docs` | Documentation gap |
+| `toolchain` | badgekit / repomark / shipkit cross-links |
 | `duplicate` | Already reported elsewhere |
 | `wontfix` | Out of scope |
 
