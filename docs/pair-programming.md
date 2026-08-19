@@ -65,3 +65,5 @@ gh pr view --json commits
 ```
 
 After merge, both authors should see progress toward Pair Extraordinaire on their profiles within ~24 hours.
+
+Cross-org doc PRs between maintainers still qualify when merged to a repo you do not own — useful for toolchain repos owned by different GitHub accounts.
