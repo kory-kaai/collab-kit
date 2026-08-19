@@ -21,3 +21,5 @@ npm test || exit 1
 ```
 
 These hooks are suggestions — adapt them to your team's needs.
+
+Pair hooks with repomark CI from init --oss-toolchain.
