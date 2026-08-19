@@ -21,3 +21,9 @@ npm test || exit 1
 ```
 
 These hooks are suggestions — adapt them to your team's needs.
+
+`collab-kit init` copies `.githooks/` into your repo. Enable them with:
+
+```bash
+collab-kit enable-hooks .
+```
