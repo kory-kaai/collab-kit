@@ -25,3 +25,9 @@ Common issues when adopting these workflow patterns.
 **Symptom:** You added a `Co-authored-by` trailer but GitHub does not credit them.
 
 **Fix:** Verify the email matches a verified address on their GitHub account. See [pair-programming.md](pair-programming.md).
+
+## repomark CI fails in GitHub Actions
+
+**Symptom:** `repomark check` passes locally but fails in CI.
+
+**Fix:** Run `npx @topdaily-dev/repomark fix . --dry-run` and commit missing files (LICENSE, SECURITY.md, etc.). Or bootstrap with `collab-kit init . --oss-toolchain`.
