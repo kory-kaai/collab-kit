@@ -10,6 +10,13 @@ npx @topdaily-dev/badgekit row ci npm license node \
 npx @topdaily-dev/badgekit validate .
 ```
 
+Example row for this repo:
+
+```bash
+npx @topdaily-dev/badgekit row ci npm license node \
+  --owner kory-kaai --repo collab-kit --npm @korykaai/collab-kit
+```
+
 ## 2. Repo health
 
 ```bash
