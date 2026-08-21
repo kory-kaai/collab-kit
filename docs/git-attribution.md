@@ -1,11 +1,11 @@
 # Git attribution
 
-Keep commits attributed to **your GitHub accounts only** â€” never Cursor, `@cursoragent`, or other agent identities.
+Keep commits attributed to **your GitHub accounts only** GÇö never Cursor, `@cursoragent`, or other agent identities.
 
 ## Checklist (do once per machine)
 
-- [ ] **Cursor IDE:** Settings â†’ **Agents â†’ Attribution** â†’ turn **Commit** and **PR** attribution **off**
-- [ ] **Cursor IDE:** Settings â†’ **Git & PRs â†’ Attribution** â†’ turn both **off**
+- [ ] **Cursor IDE:** Settings GåÆ **Agents GåÆ Attribution** GåÆ turn **Commit** and **PR** attribution **off**
+- [ ] **Cursor IDE:** Settings GåÆ **Git & PRs GåÆ Attribution** GåÆ turn both **off**
 - [ ] **Cursor CLI:** in `%USERPROFILE%\.cursor\cli-config.json` set:
   ```json
   "attribution": {
@@ -76,3 +76,6 @@ chmod +x .githooks/prepare-commit-msg .githooks/commit-msg
 ```
 
 Run collab-kit enable-hooks in repomark, badgekit, and shipkit repos too.
+
+
+Cross-org PRs to @topdaily-dev/repomark use human Co-authored-by trailers only.
