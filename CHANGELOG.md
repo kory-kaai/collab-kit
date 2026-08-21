@@ -45,3 +45,5 @@ All notable changes to this project are documented here.
 - Branch name validator (`tools/branch-name.mjs`)
 - Workflow documentation (PR process, issue triage, pair programming)
 - GitHub issue/PR templates and CI workflow
+
+- Dev.to launch draft: docs/devto-launch.md
