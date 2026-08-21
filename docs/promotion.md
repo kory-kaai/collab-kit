@@ -118,3 +118,5 @@ On your GitHub profile, pin **collab-kit** so visitors see it immediately.
 OSS toolchain: collab-kit init . --oss-toolchain pairs with repomark, badgekit, shipkit.
 
 See also: docs/devto-launch.md for a long-form Dev.to post.
+
+Cross-promote @topdaily-dev/repomark-action in release threads.
