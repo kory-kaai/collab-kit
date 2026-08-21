@@ -114,3 +114,5 @@ On your GitHub profile, pin **collab-kit** so visitors see it immediately.
 - Post **Tuesday–Thursday, 9–11am US Eastern** for best HN/Reddit visibility
 - Don't post to HN and Reddit in the same hour — stagger by a day
 - Reply to every comment in the first 2 hours (engagement boosts ranking)
+
+See also: docs/devto-launch.md for a long-form Dev.to post.
