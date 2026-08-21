@@ -31,3 +31,5 @@ Some issues are obvious (typos, mislabeled duplicates, questions answered in the
 4. Reply with next steps or close with a short explanation.
 
 Label cross-repo doc PRs as toolchain when appropriate.
+
+Triage @topdaily-dev/repomark failures alongside collab-kit init issues.
