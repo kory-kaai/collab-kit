@@ -47,3 +47,5 @@ All notable changes to this project are documented here.
 - GitHub issue/PR templates and CI workflow
 
 - Dev.to launch draft: docs/devto-launch.md
+
+- Cross-linked @topdaily-dev toolchain docs in maintainer guides.
