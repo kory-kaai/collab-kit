@@ -49,3 +49,5 @@ Add near the bottom of your README to show growth over time:
 ```
 
 Use badgekit row ci npm license after collab-kit init.
+
+Generate rows via `@topdaily-dev/badgekit` after collab-kit init.
