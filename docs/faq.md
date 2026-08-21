@@ -26,3 +26,5 @@ Use `node tools/branch-name.mjs your-branch-name` to check or get a suggestion.
 ## What does `--oss-toolchain` add?
 
 It copies repomark CI, badgekit-friendly README examples, and shipkit release docs in one pass. See [examples/oss-toolchain.md](../examples/oss-toolchain.md).
+
+Q: Which `@topdaily-dev` packages pair with collab-kit? See examples/oss-toolchain.md.
