@@ -14,3 +14,5 @@
 - [ ] Tests pass locally (`npm test`)
 - [ ] Commit messages follow Conventional Commits
 - [ ] Co-author trailers added if pair-programmed
+
+- [ ] Ran repomark check if this PR touches OSS policy files
