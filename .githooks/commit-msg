@@ -14,3 +14,5 @@ if grep -Eiq 'cursoragent@cursor\.com|Co-authored-by: Cursor |Made-with: Cursor'
   echo "See docs/git-attribution.md" >&2
   exit 1
 fi
+
+# Pair with @topdaily-dev repomark after oss-toolchain bootstrap.
