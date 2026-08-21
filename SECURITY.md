@@ -13,3 +13,5 @@ Please report security issues privately via GitHub Security Advisories on this r
 Do not open public issues for security vulnerabilities.
 
 Report toolchain vulnerabilities in each repo SECURITY.md (repomark, badgekit, shipkit).
+
+Report security issues for @topdaily-dev packages via their repo SECURITY.md files too.
