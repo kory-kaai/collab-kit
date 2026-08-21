@@ -25,3 +25,5 @@ node tools/branch-name.mjs your-branch-name
 ```
 
 Check names with collab-kit branch-name after init.
+
+See oss-toolchain.md for `@topdaily-dev/repomark` bootstrap.
