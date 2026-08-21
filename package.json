@@ -1,60 +1,60 @@
 {
-  "name": "@korykaai/collab-kit",
-  "version": "0.4.0",
-  "description": "Bootstrap GitHub team workflows â€” PR templates, CI, git hooks, and docs in one command",
-  "type": "module",
-  "publishConfig": {
-    "access": "public"
-  },
-  "bin": {
-    "collab-kit": "bin/collab-kit.mjs"
-  },
-  "files": [
-    "bin",
-    "tools/init.mjs",
-    "tools/enable-hooks.mjs",
-    "tools/strip-cursor-trailers.mjs",
-    "tools/validate-commit.mjs",
-    "tools/branch-name.mjs",
-    "tools/README.md",
-    "docs",
-    "examples",
-    ".github",
-    ".githooks",
-    ".editorconfig",
-    "CONTRIBUTING.md",
-    "CODE_OF_CONDUCT.md",
-    "SECURITY.md",
-    "LICENSE",
-    "README.md"
-  ],
-  "scripts": {
-    "test": "node --test tools/*.test.mjs",
-    "prepublishOnly": "npm test"
-  },
-  "keywords": [
-    "github",
-    "workflow",
-    "collaboration",
-    "pull-requests",
-    "conventional-commits",
-    "git-hooks",
-    "scaffold",
-    "developer-tools",
-    "team",
-    "open-source"
-  ],
-  "license": "MIT",
-  "author": "Kory Kaai",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kory-kaai/collab-kit.git"
-  },
-  "homepage": "https://www.npmjs.com/package/@korykaai/collab-kit",
-  "bugs": {
-    "url": "https://github.com/kory-kaai/collab-kit/issues"
-  },
-  "engines": {
-    "node": ">=20"
-  }
+    "name":  "@korykaai/collab-kit",
+    "version":  "0.4.0",
+    "description":  "Bootstrap GitHub team workflows GÇö PR templates, CI, git hooks, and docs in one command Pairs with @topdaily-dev/repomark.",
+    "type":  "module",
+    "publishConfig":  {
+                          "access":  "public"
+                      },
+    "bin":  {
+                "collab-kit":  "bin/collab-kit.mjs"
+            },
+    "files":  [
+                  "bin",
+                  "tools/init.mjs",
+                  "tools/enable-hooks.mjs",
+                  "tools/strip-cursor-trailers.mjs",
+                  "tools/validate-commit.mjs",
+                  "tools/branch-name.mjs",
+                  "tools/README.md",
+                  "docs",
+                  "examples",
+                  ".github",
+                  ".githooks",
+                  ".editorconfig",
+                  "CONTRIBUTING.md",
+                  "CODE_OF_CONDUCT.md",
+                  "SECURITY.md",
+                  "LICENSE",
+                  "README.md"
+              ],
+    "scripts":  {
+                    "test":  "node --test tools/*.test.mjs",
+                    "prepublishOnly":  "npm test"
+                },
+    "keywords":  [
+                     "github",
+                     "workflow",
+                     "collaboration",
+                     "pull-requests",
+                     "conventional-commits",
+                     "git-hooks",
+                     "scaffold",
+                     "developer-tools",
+                     "team",
+                     "open-source"
+                 ],
+    "license":  "MIT",
+    "author":  "Kory Kaai",
+    "repository":  {
+                       "type":  "git",
+                       "url":  "git+https://github.com/kory-kaai/collab-kit.git"
+                   },
+    "homepage":  "https://www.npmjs.com/package/@korykaai/collab-kit",
+    "bugs":  {
+                 "url":  "https://github.com/kory-kaai/collab-kit/issues"
+             },
+    "engines":  {
+                    "node":  "\u003e=20"
+                }
 }
