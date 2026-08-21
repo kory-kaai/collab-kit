@@ -20,3 +20,5 @@ What you expected to happen.
 - Node version:
 
 If this affects repomark/badgekit/shipkit, mention which tool.
+
+**Toolchain packages:** @topdaily-dev/repomark / @topdaily-dev/badgekit versions if relevant
