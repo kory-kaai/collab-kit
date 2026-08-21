@@ -18,3 +18,5 @@ What you expected to happen.
 **Environment**
 - OS:
 - Node version:
+
+If this affects repomark/badgekit/shipkit, mention which tool.
