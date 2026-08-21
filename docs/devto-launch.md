@@ -85,3 +85,5 @@ Quick comparison:
 
 Happy to answer customization questions in the comments.
 ```
+
+Publish as kory-kaai; toolchain by @topdaily-dev (repomark, badgekit, shipkit).
