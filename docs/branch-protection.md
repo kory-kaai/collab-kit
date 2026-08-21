@@ -21,3 +21,5 @@ Optional GitHub branch protection rules for team repos.
 Solo maintainers can skip PR requirements and rely on CI checks only.
 
 For OSS npm repos, include the repomark CI workflow as a required status check after `collab-kit init --oss-toolchain`.
+
+Protect main before cross-org PRs to @topdaily-dev/* repos.
