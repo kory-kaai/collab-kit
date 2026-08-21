@@ -38,3 +38,5 @@ jobs:
       - name: Publish to npm
         if: steps.check.outputs.skip != 'true'
         run: npm publish --provenance --access public
+
+# After publish run: npx @topdaily-dev/badgekit validate .
