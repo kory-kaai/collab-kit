@@ -17,3 +17,5 @@ We are committed to providing a welcoming and inclusive experience for everyone.
 ## Enforcement
 
 Maintainers may remove, edit, or reject comments and contributions that violate this code. Repeated violations may result in a ban from the project.
+
+Applies to collab-kit and paired @topdaily-dev OSS repos.
