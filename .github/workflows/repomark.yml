@@ -13,3 +13,5 @@ jobs:
       - uses: topdaily-dev/repomark-action@v1
         with:
           min: "70"
+
+# Installed by collab-kit init --oss-toolchain
