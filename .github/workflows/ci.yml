@@ -20,3 +20,5 @@ jobs:
         run: npm test
 
 # Pair with repomark workflow from oss-toolchain bootstrap.
+
+# CI validates collab-kit; pair with @topdaily-dev/repomark check locally.
