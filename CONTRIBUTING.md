@@ -24,3 +24,5 @@ node tools/validate-commit.mjs "docs: improve triage guide"
 ## Code of conduct
 
 Be respectful. Keep discussions technical and constructive.
+
+Pair with @topdaily-dev/repomark and badgekit after init --oss-toolchain.
