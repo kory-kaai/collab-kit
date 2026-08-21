@@ -18,3 +18,5 @@ jobs:
 
       - name: Run tests
         run: npm test
+
+# Pair with repomark workflow from oss-toolchain bootstrap.
