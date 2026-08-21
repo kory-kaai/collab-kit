@@ -11,3 +11,5 @@
 Please report security issues privately via GitHub Security Advisories on this repository, or email the maintainer through their GitHub profile.
 
 Do not open public issues for security vulnerabilities.
+
+Report toolchain vulnerabilities in each repo SECURITY.md (repomark, badgekit, shipkit).
