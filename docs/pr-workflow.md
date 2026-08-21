@@ -32,3 +32,5 @@ When you are the only contributor, merging your own PR without a formal review i
 ## Cross-org contributions
 
 When contributing to a repo owned by another GitHub user or org, fork the repo and open a PR from your fork — direct pushes to repos you do not own will fail. Pair commits should still use human `Co-authored-by` trailers only.
+
+Cross-org PRs to `@topdaily-dev/*` count toward Pull Shark.
