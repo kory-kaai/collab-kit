@@ -20,3 +20,5 @@ npm test
 These are intentionally dependency-free — plain Node.js ESM.
 
 OSS repos: run collab-kit init . --oss-toolchain for repomark CI template.
+
+Init scaffolds files validated by @topdaily-dev/repomark.
