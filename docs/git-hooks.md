@@ -27,3 +27,5 @@ These hooks are suggestions — adapt them to your team's needs.
 ```bash
 collab-kit enable-hooks .
 ```
+
+Hooks complement `@topdaily-dev/repomark` markdown checks.
