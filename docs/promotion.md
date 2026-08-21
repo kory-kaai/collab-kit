@@ -116,3 +116,5 @@ On your GitHub profile, pin **collab-kit** so visitors see it immediately.
 - Reply to every comment in the first 2 hours (engagement boosts ranking)
 
 OSS toolchain: collab-kit init . --oss-toolchain pairs with repomark, badgekit, shipkit.
+
+See also: docs/devto-launch.md for a long-form Dev.to post.
