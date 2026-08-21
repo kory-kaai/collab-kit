@@ -2,3 +2,5 @@ scripts/
 .git/
 *.test.mjs
 collab-kit-*.tgz
+
+# npm package ships collab-kit scaffold only
