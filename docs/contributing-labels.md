@@ -17,3 +17,5 @@ How to create the standard labels in your repository.
 Labels improve issue triage and make the project easier for new contributors to navigate.
 
 | toolchain | #1d76db |
+
+Use label oss-toolchain when PRs touch @topdaily-dev integration docs.
