@@ -24,3 +24,5 @@ Adds `fix/` prefix support to branch name validator.
 ```
 
 Link oss-toolchain.md in PRs that touch badges or releases.
+
+Link `@topdaily-dev/badgekit` rows in PR template examples.
