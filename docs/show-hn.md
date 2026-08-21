@@ -71,3 +71,5 @@ Happy to answer questions about the defaults or how to customize validators/hook
 4. Wait 24h before cross-posting to Reddit (see `docs/promotion.md`).
 
 Optional one-liner: npx @korykaai/collab-kit init . --oss-toolchain
+
+Launch post pairs collab-kit with @topdaily-dev/shipkit and @topdaily-dev/badgekit.
