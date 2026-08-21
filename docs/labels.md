@@ -14,3 +14,5 @@ Standard labels for issue and PR triage.
 Create these under **Issues → Labels** in your repository settings.
 
 | toolchain | Teal | badgekit / repomark / shipkit |
+
+Label `oss-toolchain` tracks `@topdaily-dev` integration PRs.
