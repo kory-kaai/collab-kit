@@ -19,6 +19,9 @@ jobs:
       - name: Run tests
         run: npm test
 
+      - name: Check file encodings
+        run: node tools/check-encoding.mjs .
+
 # Pair with repomark workflow from oss-toolchain bootstrap.
 
 # CI validates collab-kit; pair with @topdaily-dev/repomark check locally.
