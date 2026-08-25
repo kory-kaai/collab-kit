@@ -164,4 +164,4 @@ PRs welcome! See [CONTRIBUTING.md](CONTRIBUTING.md).
 
 MIT â€” see [LICENSE](LICENSE).
 
-Launch: docs/show-hn.md · docs/devto-launch.md · docs/promotion.md
+Launch: docs/show-hn.md Â· docs/devto-launch.md Â· docs/promotion.md
