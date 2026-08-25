@@ -1,7 +1,7 @@
 {
   "name": "@korykaai/collab-kit",
   "version": "0.4.0",
-  "description": "Bootstrap GitHub team workflows ΓÇö PR templates, CI, git hooks, and docs in one command",
+  "description": "Bootstrap GitHub team workflows — PR templates, CI, git hooks, and docs in one command",
   "type": "module",
   "publishConfig": {
     "access": "public"

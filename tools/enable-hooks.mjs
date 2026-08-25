@@ -97,9 +97,9 @@ if (isMainModule()) {
     const result = enableHooksInRepo(repo);
     const label = resolve(repo);
     if (result.ok) {
-      console.log(`OK  ${label} ΓÇö ${result.message}`);
+      console.log(`OK  ${label} — ${result.message}`);
     } else {
-      console.error(`FAIL ${label} ΓÇö ${result.message}`);
+      console.error(`FAIL ${label} — ${result.message}`);
       failed += 1;
     }
   }
