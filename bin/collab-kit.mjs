@@ -7,7 +7,7 @@ import { fileURLToPath } from "node:url";
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = resolve(__dirname, "..");
 
-const HELP = `collab-kit ΓÇö GitHub team workflow toolkit
+const HELP = `collab-kit — GitHub team workflow toolkit
 
 Usage:
   collab-kit init [dir] [--force] [--oss-toolchain]   Scaffold PR templates, CI, hooks, and docs
